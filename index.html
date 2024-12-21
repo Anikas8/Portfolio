@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Anika Saxena, showcasing projects and expertise in web development, AI, and data analysis.">
+    <meta name="keywords" content="Anika Saxena, Portfolio, Web Development, AI, Data Analysis, Stock Prediction, FB Prophet">
+    <meta name="author" content="Anika Saxena">
+    <title>Anika Saxena | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="logo">
+            <img src="assets/logo.png" alt="Anika Saxena Logo" height="40"> <!-- Replace with your logo image -->
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger-menu" aria-label="Toggle navigation menu">&#9776;</div>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero" aria-labelledby="home-heading" style="position: relative; background: url('assets/Background.jpeg') no-repeat center center/cover;">
+        <div class="hero-overlay"></div> <!-- Added overlay div -->
+        <div class="hero-content">
+            <h1 id="home-heading">Hi, I'm <span>Anika Saxena</span></h1>
+            <p>Always turning the pages of curiosity, solving problems, and writing my own story of growth</p>
+            <a href="#portfolio" class="cta-button">Explore My Work</a>
+        </div>
+    </section>
+    
+    <style>
+        .hero {
+            position: relative;
+            height: 100vh; /* You can adjust this height as needed */
+        }
+    
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); /* Dark overlay with transparency */
+            z-index: 1;
+        }
+    
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            color: white; /* Ensures the text stands out against the background */
+            text-align: center;
+            padding: 100px 20px; /* You can adjust padding as needed */
+        }
+    
+        .cta-button {
+            text-decoration: none;
+            background-color: #ff6347; /* Example button color */
+            padding: 10px 20px;
+            color: white;
+            border-radius: 5px;
+        }
+    </style>
+    
+    <!-- About Section -->
+    <section id="about" class="about" aria-labelledby="about-heading">
+        <h2 id="about-heading">About Me</h2>
+        <div class="about-content">
+            <img src="assets/image.png" alt="Photo of Anika Saxena">
+            <div>
+                <p>Hey, I'm Anika! I'm passionate about Machine Learning, and Data Analytics. I love exploring new technologies, learning from data, and using insights to solve real-world problems.
+                </p>
+                <br />
+                <p>
+                  When I'm not coding or analyzing data, you'll probably find me cooking up something delicious, strumming my guitar, or getting lost in a good book.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section class="resume" id="resume">
+        <h2>View My Resume</h2>
+        <a href="https://drive.google.com/file/d/1Fgj29jJ_daLg1i-rno7hMc46lIqvdjoN/view?usp=sharing" target="_blank" class="portfolio-item">
+            <img src="cropped-hand-holding-resume-over-white-background-918715306-5b3f5a14c9e77c00372b2891.jpg" alt="Noteforge - a notetaking app for the web">
+            <div class="overlay">
+                <h3>Resume</h3>
+            </div>
+        </a>
+    </section>
+
+    
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio" aria-labelledby="portfolio-heading">
+        <h2 id="portfolio-heading">My Work</h2>
+        <div class="portfolio-grid">
+            <a href="https://github.com/Anikas8/Olympic-2024" target="_blank" class="portfolio-item">
+                <img src="projects\1.jpg" alt="Power BI dashboard providing interactive insights into Paris Olympics data.">
+                <div class="overlay">
+                    <h3>Paris Olympic Analysis</h3>
+                    <p>Power BI dashboard providing interactive insights into Paris Olympics data.</p>
+                </div>
+            </a>
+
+            <a href="https://github.com/Anikas8/Diabetes-Pred" target="_blank" class="portfolio-item">
+                <img src="projects\2.png" alt="JSON Chatbot">
+                <div class="overlay">
+                    <h3>Diabetes Disease Prediction</h3>
+                    <p>Predicts Diabetes risk using health data and ML models.</p>
+                </div>
+            </a>
+
+            <a href="https://github.com/Anikas8/Heart-Pred" target="_blank" class="portfolio-item">
+                <img src="projects\3.jpg" alt="Portfolio Website">
+                <div class="overlay">
+                    <h3>Heart Disease Prediction</h3>
+                    <p>Predict Heart Disease risk with ML.</p>
+                </div>
+            </a>
+
+            <a href="https://github.com/Anikas8/HR-Analytics" target="_blank" class="portfolio-item">
+                <img src="projects\5.jpg" alt="Brick Breaker">
+                <div class="overlay">
+                    <h3>HR Analyticsr</h3>
+                    <p>HR analytics with Python, SQL, Power BI.</p>
+                </div>
+            </a>
+
+            <a href="https://github.com/Anikas8/Road-Safety-and-Accident-Patterns-in-India" target="_blank" class="portfolio-item">
+                <img src="projects\6.png" alt="JSON Chatbot">
+                <div class="overlay">
+                    <h3>Road Safety and Accident Patterns in India</h3>
+                    <p>Analyzing road safety and accident patterns in India using Qlik.</p>
+                </div>
+            </a>
+
+        </div>
+    </section>
+
+
+    
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact Me</h2>
+        <div class="contact-container">
+            <p>Email: <span id="email">saxenanika08@gmail.com</span></p>
+            <button class="copy-button" onclick="copyEmail()" aria-label="Copy email">Copy Email</button>
+            <p>Connect with me:</p>
+            <ul class="social-links">
+                <li><a href="https://www.linkedin.com/in/anika-saxena-063b44228/" target="_blank" aria-label="LinkedIn Profile">LinkedIn</a></li>
+                <li><a href="https://github.com/Anikas8" target="_blank" aria-label="GitHub Profile">GitHub</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
